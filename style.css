@@ -1,0 +1,1850 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+
+}
+#page1 nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 112px;
+    /* background-color: peachpuff; */
+  background-color: rgba(255, 241, 230, 1);
+
+    padding: 16px 108px;
+    position: fixed;
+    top: 0;
+    gap: 50px;
+  font:  Raleway, sans-serif;
+/* position: relative; */
+z-index: 99;
+
+
+}
+#page1 #nav-left img{
+    width: 199px;
+
+    /* background-color: red; */
+}
+.div-4 {
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    min-height: 57px;
+    align-items: center;
+    gap: 20px;
+    color: rgba(70, 70, 70, 1);
+    font-weight: 500;
+    justify-content: end;
+    width: 768px;
+    width: 500px;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      max-width: 100%;
+    }
+  }
+  .div-5 {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    white-space: nowrap;
+    justify-content: center;
+    margin: auto 0;
+    padding: 20px 0;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      white-space: initial;
+    }
+  }
+  .treatments {
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .img-2 {
+    aspect-ratio: 1.78;
+    object-fit: contain;
+    object-position: center;
+    width: 16px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-6 {
+    background-color: #4d2c19;
+    align-self: stretch;
+    width: 0px;
+    height: 24px;
+    margin: auto 0;
+    border: 1px solid rgba(77, 44, 25, 1);
+  }
+  .div-7 {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    margin: auto 0;
+    padding: 20px 0;
+  }
+  .dental-plans {
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .img-3 {
+    aspect-ratio: 1.78;
+    object-fit: contain;
+    object-position: center;
+    width: 16px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-8 {
+    background-color: #4d2c19;
+    align-self: stretch;
+    width: 0px;
+    height: 24px;
+    margin: auto 0;
+    border: 1px solid rgba(77, 44, 25, 1);
+  }
+  .our-doctors {
+    align-self: stretch;
+    gap: 16px;
+    margin: auto 0;
+    padding: 20px 0;
+  }
+  .div-9 {
+    background-color: #4d2c19;
+    align-self: stretch;
+    width: 0px;
+    height: 24px;
+    margin: auto 0;
+    border: 1px solid rgba(77, 44, 25, 1);
+  }
+  .careers {
+    align-self: stretch;
+    gap: 10px;
+    white-space: nowrap;
+    margin: auto 0;
+    padding: 20px 0;
+  }
+  @media (max-width: 991px) {
+    .careers {
+      white-space: initial;
+    }
+  }
+  .div-10 {
+    background-color: #4d2c19;
+    align-self: stretch;
+    width: 0px;
+    height: 24px;
+    margin: auto 0;
+    border: 1px solid rgba(77, 44, 25, 1);
+  }
+  .find-a-clinic {
+    align-self: stretch;
+    gap: 10px;
+    margin: auto 0;
+    padding: 20px 0;
+  }
+#center-nav{
+    width: 768px;
+    /* background-color: red; */
+}
+#center-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: red; */
+}
+#center-nav ul li{
+    list-style: none;
+    border-right: 1px solid black;
+}
+#center-nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+#nav-right{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 560px;
+    height: 69px;
+    /* background-color: red; */
+
+}
+#nav-right li{
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50px;
+
+
+}
+#nav-right li a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-size: 22px;
+}
+#nav-right #btn1{
+    width: 289px;
+    height: 69px;
+    /* padding: 18px 24px; */
+    background-color: orange;
+    color: #fff;
+    font-weight: 600;
+}
+#nav-right #btn1 a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+}
+#btn1 a img{
+    height: 33px;
+    width: 30px;
+    /* background-color: red; */
+}
+#btn2{
+    width: 169px;
+    height: 69px;
+    border: 1px solid orange;
+}
+
+#firstHeroCard{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 95vh;
+    /* background-color: #B5C186; */
+  background-color: rgba(181, 193, 166, 1);
+
+    padding: 0 80px;
+    position: relative;
+}
+#firstHeroCard-left{
+    width: 70%;
+    position: absolute;
+    top: 35vh;
+    left: 5vw;
+}
+#firstHeroCard-left h1{
+    display: flex;
+    max-width: 100%;
+    /* width: 985px; */
+    /* flex-direction: column; */
+    color: rgba(48, 48, 48, 1);
+    /* justify-content: start; */
+    font-size: 60px;
+    font-weight: 800;
+    /* font: 800 72px/1.1 Raleway, sans-serif; */
+}
+#firstHeroCard-left p{
+    font: 700 40px/1.3 Open Sans, sans-serif;
+
+}
+#firstHeroCard-left-btn{
+        align-self: stretch;
+        border-radius: 50px;
+        background-color: rgba(248, 148, 63, 1);
+        margin-top: 40px;
+        min-height: 72px;
+        width: 300px;
+        max-width: 100%;
+        gap: 13px;
+        color: rgba(255, 255, 255, 1);
+        /* padding: 28px 55px; */
+        font: 500 24px Raleway, sans-serif;
+        border: 1px solid rgba(222, 111, 13, 1);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+}
+#firstHeroCard-left-btn a{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+
+}
+#firstHeroCard-right{
+    position: absolute;
+    right: 10vw;
+    bottom: 0;
+}
+#firstHeroCard-right img{
+    width: 380px;
+    /* height: 615px; */
+}
+
+#ad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    padding: 0 3vw;
+    gap: 170px;
+    margin-top: 20px;
+    
+}
+#ad-left #world{
+    font-size: 40px;
+    font-weight: bold;
+}
+#ad-left #world span{
+    color: #ea7d28;
+}
+#ad-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: ; */
+    gap: 10px;
+    
+}
+#google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+    ;
+}
+#line{
+    align-self: stretch;
+    width: 0px;
+    height: 150px;
+    margin: auto 0;
+    border: 2px solid rgba(250, 218, 190, 1);
+}
+#city{
+    width: 400px;
+    height: 100%;
+    /* margin-left: 5vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: red; */
+    /* margin: auto 0; */
+    /* display: flex; */
+    /* width: 100%; */
+    /* flex-direction: column; */
+    font-size: 21px;
+    color: rgba(160, 160, 160, 1);
+}
+#city select{
+    width: 400px;
+    /* height: 66px; */
+    /* height: 6vh; */
+    text-align: center;
+    border-radius: 50px;
+    /* margin-left: 20vw; */
+    padding: 20px 40px;
+}
+#city #locate{
+    align-self: stretch;
+    border-radius: 50px;
+    background-color: rgba(248, 148, 63, 1);
+    margin-top: 24px;
+    min-height: 72px;
+    max-width: 100%;
+    width: 400px;
+    gap: 13px;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    padding: 28px 48px 28px 49px;
+    border: 1px solid rgba(222, 111, 13, 1);
+
+}
+
+/*******page 2********/
+ #page2{
+min-height: 100vh;
+width: 100%;
+padding: 80px 115px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#page2 #center{
+    background-color: #FFF9F4;
+    width: 90%;
+    height: 90vh;
+    display: flex;
+     align-items: center;
+     
+      justify-content: center; 
+ } 
+
+.div-42 {
+    display: flex;
+    flex-direction: column;
+    color: var(--Text-1, #303030);
+    justify-content: center;
+    padding: 8px 15px;
+    font: 700 24px Raleway, sans-serif;
+    /* width: 90%; */
+    margin-top: 10vh;
+  }
+  @media (max-width: 991px) {
+    .div-42 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .div-43 {
+    border-radius: 30px;
+    background-color: rgba(255, 249, 244, 1);
+    display: flex;
+    width: 100%;
+    /* max-width: 1690px; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 80px;
+  }
+  @media (max-width: 991px) {
+    .div-43 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .all-dental-issues-from-simple-cleaning-to-full-mouth-rehabilitation-under-one-roof {
+    width: 928px;
+    max-width: 100%;
+    font-size: 40px;
+    text-align: center;
+    line-height: 52px;
+  }
+  @media (max-width: 991px) {
+    .all-dental-issues-from-simple-cleaning-to-full-mouth-rehabilitation-under-one-roof {
+      max-width: 100%;
+    }
+  }
+  .div-44 {
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    font-weight: 600;
+    justify-content: start;
+    padding: 1vw 2vw;
+    /* overflow: hidden; */
+    /* background-color: red; */
+  }
+  @media (max-width: 991px) {
+    .div-44 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div-45 {
+    display: flex;
+    align-items: start;
+    gap: 14px;
+    line-height: 31px;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+  }
+  @media (max-width: 991px) {
+    .div-45 {
+      max-width: 100%;
+    }
+  }
+  .rct {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    min-height: 204px;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    padding: 14px 8px;
+    align-items: center;
+    text-align: center;
+  }
+  .img-12 {
+    aspect-ratio: 0.68;
+    object-fit: contain;
+    object-position: center;
+    width: 51px;
+    align-self: center;
+  }
+  .div-46 {
+    display: flex;
+    margin-top: 36px;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .root-canal-treatment {
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .braces {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    min-height: 204px;
+    flex-direction: column;
+    white-space: nowrap;
+    line-height: 1.3;
+    justify-content: center;
+    width: 200px;
+    padding: 51px 18px 27px;
+  }
+  @media (max-width: 991px) {
+    .braces {
+      white-space: initial;
+    }
+  }
+  .img-13 {
+    aspect-ratio: 2.32;
+    object-fit: contain;
+    object-position: center;
+    width: 109px;
+    align-self: center;
+    max-width: 100%;
+  }
+  .div-47 {
+    display: flex;
+    margin-top: 35px;
+    min-height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .div-47 {
+      white-space: initial;
+    }
+  }
+  .braces-2 {
+    align-self: stretch;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .braces-2 {
+      white-space: initial;
+    }
+  }
+  .whitening {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    min-height: 204px;
+    flex-direction: column;
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    padding: 24px 18px;
+  }
+  @media (max-width: 991px) {
+    .whitening {
+      white-space: initial;
+    }
+  }
+  .img-14 {
+    aspect-ratio: 1.05;
+    object-fit: contain;
+    object-position: center;
+    width: 80px;
+    align-self: center;
+  }
+  .div-48 {
+    display: flex;
+    margin-top: 36px;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .div-48 {
+      white-space: initial;
+    }
+  }
+  .teeth-whitening {
+    align-self: stretch;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .teeth-whitening {
+      white-space: initial;
+    }
+  }
+  .braces-3 {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    min-height: 204px;
+    flex-direction: column;
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    padding: 40px 18px 16px;
+  }
+  @media (max-width: 991px) {
+    .braces-3 {
+      white-space: initial;
+    }
+  }
+  .img-15 {
+    aspect-ratio: 1.76;
+    object-fit: contain;
+    object-position: center;
+    width: 120px;
+    align-self: center;
+    max-width: 100%;
+  }
+  .div-49 {
+    display: flex;
+    margin-top: 35px;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .div-49 {
+      white-space: initial;
+    }
+  }
+  .invisible-braces {
+    align-self: stretch;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .invisible-braces {
+      white-space: initial;
+    }
+  }
+  .dental-implants {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    min-height: 204px;
+    flex-direction: column;
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    padding: 24px 18px;
+  }
+  @media (max-width: 991px) {
+    .dental-implants {
+      white-space: initial;
+    }
+  }
+  .img-16 {
+    aspect-ratio: 0.73;
+    object-fit: contain;
+    object-position: center;
+    width: 55px;
+    align-self: center;
+  }
+  .div-50 {
+    display: flex;
+    margin-top: 36px;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .div-50 {
+      white-space: initial;
+    }
+  }
+  .dental-implants-2 {
+    align-self: stretch;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .dental-implants-2 {
+      white-space: initial;
+    }
+  }
+  .rct-2 {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    min-height: 204px;
+    flex-direction: column;
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    padding: 15px 18px;
+  }
+  @media (max-width: 991px) {
+    .rct-2 {
+      white-space: initial;
+    }
+  }
+  .img-17 {
+    aspect-ratio: 0.83;
+    object-fit: contain;
+    object-position: center;
+    width: 77px;
+    align-self: center;
+  }
+  .div-51 {
+    display: flex;
+    margin-top: 36px;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .div-51 {
+      white-space: initial;
+    }
+  }
+  .smile-makover {
+    align-self: stretch;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .smile-makover {
+      white-space: initial;
+    }
+  }
+  .div-52 {
+    display: flex;
+    margin-top: 60px;
+    align-items: start;
+    gap: 14px;
+    line-height: 1.3;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div-52 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .img-18 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 75px;
+    align-self: center;
+  }
+  .div-53 {
+    display: flex;
+    margin-top: 36px;
+    min-height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .kids-dentistry {
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .rct-3 {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    min-height: 204px;
+    flex-direction: column;
+    text-align: center;
+    line-height: 31px;
+    justify-content: center;
+    width: 200px;
+    padding: 32px 18px;
+  }
+  .img-19 {
+    aspect-ratio: 2.19;
+    object-fit: contain;
+    object-position: center;
+    width: 128px;
+    align-self: center;
+    max-width: 100%;
+  }
+  .div-54 {
+    display: flex;
+    margin-top: 36px;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .gum-treatment {
+    align-self: stretch;
+    width: 164px;
+    margin: auto 0;
+  }
+  .braces-4 {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    min-height: 204px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    padding: 25px 18px;
+  }
+  .img-20 {
+    aspect-ratio: 1.22;
+    object-fit: contain;
+    object-position: center;
+    width: 100px;
+    align-self: center;
+    max-width: 100%;
+  }
+  .div-55 {
+    display: flex;
+    margin-top: 28px;
+    min-height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .wisdom-tooth {
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .lasers {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    min-height: 204px;
+    flex-direction: column;
+    text-align: center;
+    line-height: 31px;
+    justify-content: center;
+    width: 200px;
+    padding: 24px 18px;
+  }
+  .img-21 {
+    aspect-ratio: 0.81;
+    object-fit: contain;
+    object-position: center;
+    width: 61px;
+    align-self: center;
+  }
+  .div-56 {
+    display: flex;
+    margin-top: 36px;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .laser-painless-dentistry {
+    align-self: stretch;
+    width: 204px;
+    margin: auto 0;
+  }
+  .dental-implants-3 {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    min-height: 204px;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    padding: 24px 18px;
+  }
+  .img-22 {
+    aspect-ratio: 0.71;
+    object-fit: contain;
+    object-position: center;
+    width: 54px;
+    align-self: center;
+  }
+  .div-57 {
+    display: flex;
+    margin-top: 36px;
+    min-height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .crowns-bridges {
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .whitening-2 {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    min-height: 204px;
+    flex-direction: column;
+    white-space: nowrap;
+    justify-content: center;
+    width: 200px;
+    padding: 24px 18px;
+  }
+  @media (max-width: 991px) {
+    .whitening-2 {
+      white-space: initial;
+    }
+  }
+  .img-23 {
+    aspect-ratio: 1.05;
+    object-fit: contain;
+    object-position: center;
+    width: 79px;
+    align-self: center;
+  }
+  .div-58 {
+    display: flex;
+    margin-top: 36px;
+    min-height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .div-58 {
+      white-space: initial;
+    }
+  }
+  .dentures {
+    align-self: stretch;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .dentures {
+      white-space: initial;
+    }
+  }
+  .div-59 {
+    align-self: stretch;
+    display: flex;
+    margin-top: 60px;
+    height: 14px;
+    width: 100%;
+    align-items: center;
+    gap: 16px;
+    color: var(--Brown, #4d2c19);
+    line-height: 1.3;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div-59 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .img-24 {
+    aspect-ratio: 0.96;
+    object-fit: contain;
+    object-position: center;
+    width: 23px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .explore-treatments {
+    text-decoration-line: underline;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .img-25 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+    stroke-width: 2px;
+    stroke: var(--Orange, #ea7d28);
+    align-self: stretch;
+    margin: auto 0;
+  }
+
+
+  #page3{
+    min-height: 100vh;
+    width: 100%;
+  }
+  .div-60 {
+    display: flex;
+    /* align-items: center; */
+    gap: 36px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px 85px;
+    width: 100%;
+  }
+  @media (max-width: 991px) {
+    .div-60 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .div-61 {
+    border-radius: 24px;
+    background-color: rgba(255, 249, 244, 1);
+    /* align-self: stretch; */
+    display: flex;
+    /* min-width: 240px; */
+    /* min-height: 786px; */
+    /* width: 240px; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* flex: 1; */
+    flex-basis: 0%;
+    /* margin: auto 0; */
+    /* padding: 0 80px 24px; */
+    width: 40%;
+    /* background-color: red; */
+  }
+  @media (max-width: 991px) {
+    .div-61 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .div-62 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .expert-guidance-for-healthy-smiles {
+    color: var(--Text-1, #303030);
+    font: 700 40px/52px Raleway, sans-serif;
+  }
+  .contact-now {
+    color: var(--Text-2, #474747);
+    leading-trim: both;
+    text-edge: cap;
+    margin-top: 20px;
+    font: 400 24px/1.3 Open Sans, sans-serif;
+  }
+  .div-63 {
+    display: flex;
+    margin-top: 92px;
+    width: 401px;
+    max-width: 100%;
+    /* width: 60%; */
+    align-items: start;
+    gap: 48px 35px;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 991px) {
+    .div-63 {
+      margin-top: 40px;
+    }
+  }
+  .div-64 {
+    display: flex;
+    min-width: 240px;
+    flex-direction: column;
+    justify-content: start;
+    flex-grow: 1;
+    width: 321px;
+  }
+  .div-65 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .name {
+    z-index: 10;
+    background-color: rgba(255, 248, 242, 1);
+    align-self: start;
+    color: rgba(136, 136, 136, 1);
+    white-space: nowrap;
+    margin: -8px 0 0 34px;
+    padding: 0 5px -4px;
+    font: 400 20px Switzer, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .name {
+      margin-left: 10px;
+      white-space: initial;
+    }
+  }
+  .amit-rana {
+    border-radius: 80px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(94, 94, 94, 1);
+    padding: 26px 32px;
+    font: 600 28px Open Sans, sans-serif;
+    border: 2px solid rgba(176, 176, 176, 1);
+  }
+  @media (max-width: 991px) {
+    .amit-rana {
+      padding: 0 20px;
+    }
+  }
+  .div-66 {
+    display: flex;
+    margin-top: 32px;
+    width: 100%;
+    flex-direction: column;
+    color: rgba(160, 160, 160, 1);
+    font: 400 24px Open Sans, sans-serif;
+  }
+  .mobile-number {
+    border-radius: 80px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 28px 31px;
+    border: 2px solid rgba(176, 176, 176, 1);
+  }
+  @media (max-width: 991px) {
+    .mobile-number {
+      padding: 0 20px;
+    }
+  }
+  .div-67 {
+    display: flex;
+    margin-top: 32px;
+    width: 100%;
+    max-width: 400px;
+    flex-direction: column;
+    color: rgba(160, 160, 160, 1);
+    font: 400 24px Open Sans, sans-serif;
+  }
+  .div-68 {
+    border-radius: 80px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 28px 29px;
+    border: 2px solid rgba(176, 176, 176, 1);
+  }
+  @media (max-width: 991px) {
+    .div-68 {
+      padding: 0 20px;
+    }
+  }
+  .img-26 {
+    aspect-ratio: 1.79;
+    object-fit: contain;
+    object-position: center;
+    width: 25px;
+    fill: var(--Orange, #ea7d28);
+    align-self: start;
+  }
+  .locate-nearest-clove-clinic-3 {
+    align-self: stretch;
+    border-radius: 50px;
+    background-color: rgba(248, 148, 63, 1);
+    min-width: 240px;
+    min-height: 72px;
+    gap: 13px;
+    color: rgba(255, 255, 255, 1);
+    flex-grow: 1;
+    width: 320px;
+    padding: 28px 55px;
+    font: 500 24px Raleway, sans-serif;
+    border: 1px solid rgba(222, 111, 13, 1);
+  }
+  @media (max-width: 991px) {
+    .locate-nearest-clove-clinic-3 {
+      padding: 0 20px;
+    }
+  }
+  .div-69 {
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    flex-direction: column;
+    justify-content: start;
+    /* width: 934px; */
+    margin: auto 0;
+    width: 60%;
+  }
+  @media (max-width: 991px) {
+    .div-69 {
+      max-width: 100%;
+    }
+  }
+  .div-70 {
+    border-radius: 24px;
+    background-color: rgba(251, 245, 255, 1);
+    max-width: 100%;
+    width: 934px;
+    padding-left: 40px;
+    overflow: hidden;
+  }
+  @media (max-width: 991px) {
+    .div-70 {
+      padding-left: 20px;
+    }
+  }
+  .div-71 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div-71 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column-3 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 59%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column-3 {
+      width: 100%;
+    }
+  }
+  .div-72 {
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    padding-bottom: 18px;
+    flex-direction: column;
+    align-items: start;
+    color: var(--Text-1, #303030);
+    line-height: 1;
+    margin: 60px -71px 0 0;
+  }
+  @media (max-width: 991px) {
+    .div-72 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .ten-x-safety-protocols {
+    font: 700 56px Raleway, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .ten-x-safety-protocols {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }
+  .div-73 {
+    align-self: stretch;
+    display: flex;
+    margin-top: 24px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+  @media (max-width: 991px) {
+    .div-73 {
+      max-width: 100%;
+    }
+  }
+  .div-74 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .monitored-by-dori {
+    leading-trim: both;
+    text-edge: cap;
+    font: 300 28px Switzer, sans-serif;
+  }
+  .artificial-intelligence-system {
+    leading-trim: both;
+    text-edge: cap;
+    margin-top: 16px;
+    font: 400 18px Open Sans, sans-serif;
+  }
+  .with-uv-light-sterilized-equipment-at-all-clinics {
+    leading-trim: both;
+    text-edge: cap;
+    align-self: stretch;
+    margin-top: 40px;
+    font: 300 28px Open Sans, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .with-uv-light-sterilized-equipment-at-all-clinics {
+      max-width: 100%;
+    }
+  }
+  .reverse-osmosis-ro-filtration-system-to-ensure-safest-water-supply {
+    leading-trim: both;
+    text-edge: cap;
+    margin-top: 40px;
+    font: 300 28px/36px Open Sans, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .reverse-osmosis-ro-filtration-system-to-ensure-safest-water-supply {
+      max-width: 100%;
+    }
+  }
+  .div-75 {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .div-76 {
+    z-index: 10;
+    display: flex;
+    margin-top: -44px;
+    align-items: center;
+    gap: 16px;
+    color: var(--Brown, #4d2c19);
+    justify-content: start;
+    font: 700 20px/1.3 Raleway, sans-serif;
+  }
+  .learn-more {
+    text-decoration-line: underline;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .img-27 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+    stroke-width: 2px;
+    stroke: var(--Brown, #4d2c19);
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .column-4 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 41%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-4 {
+      width: 100%;
+    }
+  }
+  .img-28 {
+    aspect-ratio: 0.93;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+  }
+  .div-77 {
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+    gap: 34px;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 991px) {
+    .div-77 {
+      max-width: 100%;
+    }
+  }
+  .div-78 {
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    flex-direction: column;
+    width: 450px;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .div-78 {
+      max-width: 100%;
+    }
+  }
+  .div-79 {
+    border-radius: 20px;
+    background-color: rgba(245, 248, 255, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px 45px;
+  }
+  @media (max-width: 991px) {
+    .div-79 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .four50-neighbourhood-clinics-pan-india {
+    color: var(--Text-1, #303030);
+    text-align: center;
+    font-size: 24px;
+    line-height: 31px;
+    align-self: start;
+    width: 249px;
+  }
+  .img-29 {
+    aspect-ratio: 0.97;
+    object-fit: contain;
+    object-position: center;
+    width: 116px;
+    margin-top: 31px;
+    max-width: 100%;
+  }
+  .div-80 {
+    display: flex;
+    margin-top: 64px;
+    align-items: center;
+    gap: 16px;
+    font-size: 18px;
+    color: var(--Brown, #4d2c19);
+    line-height: 1.3;
+    justify-content: start;
+  }
+  @media (max-width: 991px) {
+    .div-80 {
+      margin-top: 40px;
+    }
+  }
+  .locate-clinic-near-you {
+    text-decoration-line: underline;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .img-30 {
+    aspect-ratio: 1.33;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+    stroke-width: 2px;
+    stroke: var(--Orange, #ea7d28);
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-81 {
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    flex-direction: column;
+    width: 450px;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .div-81 {
+      max-width: 100%;
+    }
+  }
+  .div-82 {
+    border-radius: 20px;
+    background-color: rgba(225, 242, 238, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 21px 45px;
+  }
+  @media (max-width: 991px) {
+    .div-82 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .div-83 {
+    display: flex;
+    flex-direction: column;
+  }
+  .one200-expert-doctors-covering-all-specialities {
+    color: var(--Text-1, #303030);
+    text-align: center;
+    font-size: 24px;
+    line-height: 31px;
+  }
+  @media (max-width: 991px) {
+    .one200-expert-doctors-covering-all-specialities {
+      margin-right: 3px;
+    }
+  }
+  .img-31 {
+    aspect-ratio: 1.03;
+    object-fit: contain;
+    object-position: center;
+    width: 124px;
+    align-self: center;
+    margin-top: 49px;
+    max-width: 100%;
+  }
+  @media (max-width: 991px) {
+    .img-31 {
+      margin-top: 40px;
+    }
+  }
+  .div-84 {
+    display: flex;
+    margin-top: 49px;
+    align-items: center;
+    gap: 16px;
+    font-size: 18px;
+    color: var(--Brown, #4d2c19);
+    line-height: 1.3;
+    justify-content: start;
+  }
+  @media (max-width: 991px) {
+    .div-84 {
+      margin-top: 40px;
+    }
+  }
+  .explore-dentists-nearby {
+    text-decoration-line: underline;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .img-32 {
+    aspect-ratio: 1.33;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+    stroke-width: 2px;
+    stroke: var(--Orange, #ea7d28);
+    align-self: stretch;
+    margin: auto 0;
+  }
+
+  /* page3 */
+  
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    width: 40%;
+    background-color: #FFF5EF;
+    padding: 30px;
+    border-radius: 10px;
+}
+.left-section h2 {
+    color: #333;
+    font-size: 40px;
+}
+
+.left-section p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF7A00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #e66b00;
+}
+.right-section {
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-card {
+    background-color: #F2F0FB;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#top-card-left{
+    display: flex;align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 150px;
+    
+    
+}
+
+.top-card h2 {
+    font-size: 50px;
+    color: #333;
+}
+
+.top-card p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.top-card a {
+    color: #FF7A00;
+    text-decoration: none;
+}
+.top-card img {
+    /* height: 100px; */
+    border-radius: 10px;
+}
+
+.bottom-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 48%;
+    background-color: #E0F7EF;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.card a {
+    color: #FF7A00;
+    text-decoration: none;
+}
+
+/* page4  */
+ 
+.testimonials {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.testimonials h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.testimonial-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.testimonial-item .name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.testimonial-item .treatment {
+    color: #FF7A00;
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .testimonial-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+} 
+
+@media (max-width: 480px) {
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial-item img {
+        width: 100%;
+        height: 200px;
+        object-fit:cover;
+    }
+}
+
+
+/* page5  */
+
+
+.specialists-section {
+    padding: 40px;
+    background-color: #fdf6f2;
+    width: 100%;
+}
+
+.specialists-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    gap: 120px;
+    width: 100%;
+}
+
+.specialists-info {
+    flex: 1;
+    max-width: 40%;
+    padding-right: 20px;
+}
+
+.specialists-info h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.stats {
+    margin-bottom: 40px;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stat-item img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.stat-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+.stat-item .highlight {
+    color: #FF7A00;
+    font-weight: bold;
+}
+
+.meet-doctors-btn {
+    padding: 15px 30px;
+    background-color: #FF7A00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.doctors-info {
+    display: flex;
+    flex-direction: column;
+    width:55% ;
+    /* gap: 20px;
+    flex: 1;*/
+    /* max-width: 55%;  */
+    /* margin-left: 20px; */
+}
+.doctors-grid{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    max-width: 55%;
+}
+.doctor {
+    text-align: center;
+    flex: 1;
+}
+
+.doctor img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.doctor p {
+    font-size: 16px;
+    color: #555;
+}
+
+.doctor strong {
+    display: block;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .specialists-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .specialists-info {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .doctors-info {
+        max-width: 100%;
+    }
+
+    .doctor {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+    }
+
+    .doctor img {
+        width: 80%;
+        margin:0 auto;
+}
+}
